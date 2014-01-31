@@ -24,6 +24,10 @@ The `Win-e` script is useful if you have a tabbed explorer like enabled with [QT
 
 You find more tips for windows at [flupp.de].
 
+## Other AutoHotkey resources
+
+* [trending at github]
+
 [AutoHotkey]: http://www.autohotkey.com
 [Chrome]: https://www.google.com/chrome
 [ConEmu]: http://code.google.com/p/conemu-maximus5/
@@ -34,3 +38,4 @@ You find more tips for windows at [flupp.de].
 [QTTabBar]: http://qttabbar.sourceforge.net/
 
 [flupp.de]: http://wiki.flupp.de/windows
+[trending at github]: https://github.com/trending?l=autohotkey
