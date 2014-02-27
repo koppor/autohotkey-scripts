@@ -12,9 +12,10 @@ My personal authotkey scripts. Hope, they are useful for others, too
 
 Shortcut | Note | Application | File
 -------- | ---- | ----------- | ----
+`Ctrl+h` | "h" for **h**idden. Toggles display of hidden files in Windows Explorer | Windows Explorer | [ToggleHiddenFiles.ahk](ToggleHiddenFiles.ahk)
 `Win-+`  | "Plus" for Nodepad *plus* plus | [Nodepad++] | [Notepad.ahk](Notepad.ahk)
 `Win-b`  | "b" for **b**rowser | [Firefox] | [Firefox.ahk](Firefox.ahk)
-`Win-e`  | Overrides default Win-e with focusing an active explorer Window | Windows Explorer | [WindowsExplorer.ahk](WindowsExplorer.ahk)
+`Win-e`  | Overrides default Win-e with focusing an active explorer window | Windows Explorer | [WindowsExplorer.ahk](WindowsExplorer.ahk)
 `Win-g`  | "g" for **g**oogle  | [Chrome]  | [Chrome.ahk](Chrome.ahk)
 `Win-j`  | "j" for **J**abRef  | [JabRef]  | [JabRef.ahk](JabRef.ahk)
 `Win-o`  | "o" like **o**pera  | [Opera]     | [Opera.ahk](Opera.ahk)
