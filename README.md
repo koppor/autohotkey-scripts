@@ -19,7 +19,7 @@ Shortcut | Note | Application | File
 `Win-g`  | "g" for **g**oogle  | [Chrome]  | [Chrome.ahk](Chrome.ahk)
 `Win-j`  | "j" for **J**abRef  | [JabRef]  | [JabRef.ahk](JabRef.ahk)
 `Win-o`  | "o" like **o**pera  | [Opera]     | [Opera.ahk](Opera.ahk)
-`Win+v`  | "v", because `Win+c` is already taken by Win8 | [ConEmu] | [ConEmu.ahk](ConEmu.ahk)
+`Win+v`  | "v", because `Win+c` is already taken by Win8 | [ConEmu]. Also install [Clink]. | [ConEmu.ahk](ConEmu.ahk)
 
 The `Win-e` script is useful if you have a tabbed explorer like enabled with [QTTabBar].
 
@@ -31,6 +31,7 @@ You find more tips for windows at [flupp.de].
 
 [AutoHotkey]: http://www.autohotkey.com
 [Chrome]: https://www.google.com/chrome
+[Clink]: http://mridgers.github.io/clink/
 [ConEmu]: http://code.google.com/p/conemu-maximus5/
 [Firefox]: http://www.mozilla.org/firefox
 [JabRef]: http://jabref.sourceforge.net/
