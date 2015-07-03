@@ -1,7 +1,7 @@
 #j::
 IfWinNotExist, JabRef ahk_class SunAwtFrame
 {
-  Run cmd /c start C:\Users\Oliver\BTSync\bin\JabRef.bat
+  Run "C:\Program Files (x86)\JabRef\JabRef.exe"
   WinWait JabRef
 }
 WinActivate
