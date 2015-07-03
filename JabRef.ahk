@@ -1,5 +1,5 @@
 #j::
-IfWinExist, JabRef
+IfWinExist, JabRef ahk_class SunAwtFrame
 {
   WinActivate
 }
