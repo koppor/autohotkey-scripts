@@ -32,7 +32,7 @@ You find more tips for windows at [flupp.de].
 [AutoHotkey]: http://www.autohotkey.com
 [Chrome]: https://www.google.com/chrome
 [Clink]: http://mridgers.github.io/clink/
-[ConEmu]: http://code.google.com/p/conemu-maximus5/
+[ConEmu]: https://conemu.github.io/
 [Firefox]: http://www.mozilla.org/firefox
 [JabRef]: http://jabref.sourceforge.net/
 [Nodepad++]: http://notepad-plus-plus.org/
