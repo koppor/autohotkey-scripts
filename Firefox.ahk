@@ -1,8 +1,8 @@
 #b::
-IfWinNotExist, Mozilla Firefox
+IfWinNotExist, ahk_exe firefox.exe
 {
   Run C:\Program Files (x86)\Mozilla Firefox\firefox.exe
-  WinWait Mozilla Firefox
+  WinWait ahk_exe firefox.exe
 }
 WinActivate
 return
