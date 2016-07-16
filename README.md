@@ -19,7 +19,8 @@ Shortcut | Note | Application | File
 `Win-g`  | "g" for **g**oogle  | [Chrome]  | [Chrome.ahk](Chrome.ahk)
 `Win-j`  | "j" for **J**abRef  | [JabRef]  | [JabRef.ahk](JabRef.ahk)
 `Win-o`  | "o" like **o**pera  | [Opera]     | [Opera.ahk](Opera.ahk)
-`Win+v`  | "v", because `Win+c` is already taken by Win8 | [ConEmu]. Also install [Clink]. | [ConEmu.ahk](ConEmu.ahk)
+`Win-v`  | "v", because `Win+c` is already taken by Win8 | [ConEmu]. Also install [Clink]. | [ConEmu.ahk](ConEmu.ahk)
+`Win-w`  | (Win-i opens the windows setting)  | [IntelliJ IDEA]  | [IntelliJ.ahk](IntelliJ.ahk)
 
 The `Win-e` script is useful if you have a tabbed explorer like enabled with [QTTabBar].
 
@@ -34,6 +35,7 @@ You find more tips for windows at [flupp.de].
 [Clink]: http://mridgers.github.io/clink/
 [ConEmu]: https://conemu.github.io/
 [Firefox]: http://www.mozilla.org/firefox
+[IntelliJ IDEA]: https://www.jetbrains.com/idea/
 [JabRef]: http://jabref.sourceforge.net/
 [Nodepad++]: http://notepad-plus-plus.org/
 [Opera]: http://www.opera.com/
