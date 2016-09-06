@@ -28,6 +28,8 @@ You find more tips for windows at [flupp.de].
 
 ## Other AutoHotkey resources
 
+* https://github.com/baderas/autohotkey-scripts
+* https://github.com/ahkscript/awesome-AutoHotkey
 * [trending at github]
 
 [AutoHotkey]: http://www.autohotkey.com
