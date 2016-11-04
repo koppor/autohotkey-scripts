@@ -26,6 +26,8 @@ The `Win-e` script is useful if you have a tabbed explorer like enabled with [QT
 
 You find more tips for windows at [flupp.de].
 
+For tool installation, see https://github.com/koppor/koppors-chocolatey-scripts.
+
 ## Other AutoHotkey resources
 
 * https://github.com/baderas/autohotkey-scripts
