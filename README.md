@@ -12,21 +12,21 @@ My personal authotkey scripts. Hope, they are useful for others, too
 
 Shortcut | Note | Application | File
 -------- | ---- | ----------- | ----
-`Ctrl+h` | "h" for **h**idden. Toggles display of hidden files in Windows Explorer | Windows Explorer | [ToggleHiddenFiles.ahk](ToggleHiddenFiles.ahk)
-`Win-+`  | "Plus" for Nodepad *plus* plus | [Nodepad++] | [Notepad.ahk](Notepad.ahk)
-`Win-b`  | "b" for **b**rowser | [Firefox] | [Firefox.ahk](Firefox.ahk)
-`Win-e`  | Overrides default Win-e with focusing an active explorer window | Windows Explorer | [WindowsExplorer.ahk](WindowsExplorer.ahk)
-`Win-g`  | "g" for **g**oogle  | [Chrome]  | [Chrome.ahk](Chrome.ahk)
-`Win-j`  | "j" for **J**abRef  | [JabRef]  | [JabRef.ahk](JabRef.ahk)
-`Win-o`  | "o" like **o**pera  | [Opera]     | [Opera.ahk](Opera.ahk)
-`Win-c`  | "c", like **c**onsole | [ConEmu]. Also install [Clink]. | [ConEmu.ahk](ConEmu.ahk)
-`Win-w`  | (Win-i opens the windows setting)  | [IntelliJ IDEA]  | [IntelliJ.ahk](IntelliJ.ahk)
+<kbd>Win</kbd>-<kbd>b</kbd>  | "b" for **b**rowser | [Firefox] | [Firefox.ahk](Firefox.ahk)
+<kbd>Win</kbd>-<kbd>g</kbd>  | "g" for **g**oogle  | [Chrome]  | [Chrome.ahk](Chrome.ahk)
+<kbd>Win</kbd>-<kbd>+</kbd>  | "Plus" for Nodepad *plus* plus | [Nodepad++] | [Notepad.ahk](Notepad.ahk)
+<kbd>Win</kbd>-<kbd>e</kbd>  | Overrides default Win-e with focusing an active explorer window | Windows Explorer | [WindowsExplorer.ahk](WindowsExplorer.ahk)
+<kbd>Win</kbd>-<kbd>c</kbd>  | "c", like **c**onsole | [ConEmu]. Also install [Clink]. | [ConEmu.ahk](ConEmu.ahk)
+<kbd>Win</kbd>-<kbd>w</kbd>  | (Win-i opens the windows setting)  | [IntelliJ IDEA]  | [IntelliJ.ahk](IntelliJ.ahk)
+<kbd>Win</kbd>-<kbd>j</kbd>  | "j" for **J**abRef  | [JabRef]  | [JabRef.ahk](JabRef.ahk)
+<kbd>Win</kbd>-<kbd>o</kbd>  | "o" like **o**pera  | [Opera]     | [Opera.ahk](Opera.ahk)
+<kbd>Ctrl</kbd>-<kbd>Alt</kbd>-<kbd>h</kbd> | "h" for **h**idden. Toggles display of hidden files in Windows Explorer | Windows Explorer | [ToggleHiddenFiles.ahk](ToggleHiddenFiles.ahk)
 
 The `Win-e` script is useful if you have a tabbed explorer like enabled with [QTTabBar].
 
 You find more tips for windows at [flupp.de].
 
-For tool installation, see https://github.com/koppor/koppors-chocolatey-scripts.
+For tool installation, see <https://github.com/koppor/koppors-chocolatey-scripts>.
 
 ## Other AutoHotkey resources
 
