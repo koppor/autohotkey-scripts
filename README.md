@@ -19,6 +19,7 @@ Shortcut | Note | Application | File
 <kbd>Win</kbd>-<kbd>c</kbd>  | "c", like **c**onsole | [ConEmu]. Also install [Clink]. | [ConEmu.ahk](ConEmu.ahk)
 <kbd>Win</kbd>-<kbd>w</kbd>  | (Win-i opens the windows setting)  | [IntelliJ IDEA]  | [IntelliJ.ahk](IntelliJ.ahk)
 <kbd>Win</kbd>-<kbd>j</kbd>  | "j" for **J**abRef  | [JabRef]  | [JabRef.ahk](JabRef.ahk)
+<kbd>Win</kbd>-<kbd>s</kbd>  | "s" for **S**umatra PDF  | [Sumatra PDF]  | [SumatraPDF.ahk](SumatraPDF.ahk)
 <kbd>Win</kbd>-<kbd>o</kbd>  | "o" like **o**pera  | [Opera]     | [Opera.ahk](Opera.ahk)
 <kbd>Ctrl</kbd>-<kbd>Alt</kbd>-<kbd>h</kbd> | "h" for **h**idden. Toggles display of hidden files in Windows Explorer | Windows Explorer | [ToggleHiddenFiles.ahk](ToggleHiddenFiles.ahk)
 
@@ -44,6 +45,7 @@ For tool installation, see <https://github.com/koppor/koppors-chocolatey-scripts
 [Nodepad++]: http://notepad-plus-plus.org/
 [Opera]: http://www.opera.com/
 [QTTabBar]: http://qttabbar.sourceforge.net/
+[SumatraPDF]: https://www.sumatrapdfreader.org/
 
 [flupp.de]: http://wiki.flupp.de/windows
 [trending at github]: https://github.com/trending?l=autohotkey
