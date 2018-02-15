@@ -21,6 +21,7 @@ Shortcut | Note | Application | File
 <kbd>Win</kbd>-<kbd>j</kbd>  | "j" for **J**abRef  | [JabRef]  | [JabRef.ahk](JabRef.ahk)
 <kbd>Win</kbd>-<kbd>s</kbd>  | "s" for **S**umatra PDF  | [Sumatra PDF]  | [SumatraPDF.ahk](SumatraPDF.ahk)
 <kbd>Win</kbd>-<kbd>o</kbd>  | "o" like **o**pera  | [Opera]     | [Opera.ahk](Opera.ahk)
+<kbd>Win</kbd>-<kbd>z</kbd>  | "z" like **z**otero  | [Zotero]     | [Zotero.ahk](Zotero.ahk)
 <kbd>Ctrl</kbd>-<kbd>Alt</kbd>-<kbd>h</kbd> | "h" for **h**idden. Toggles display of hidden files in Windows Explorer | Windows Explorer | [ToggleHiddenFiles.ahk](ToggleHiddenFiles.ahk)
 
 The `Win-e` script is useful if you have a tabbed explorer like enabled with [QTTabBar].
@@ -46,6 +47,7 @@ For tool installation, see <https://github.com/koppor/koppors-chocolatey-scripts
 [Opera]: http://www.opera.com/
 [QTTabBar]: http://qttabbar.sourceforge.net/
 [SumatraPDF]: https://www.sumatrapdfreader.org/
+[Zotero]: https://www.zotero.org/
 
 [flupp.de]: http://wiki.flupp.de/windows
 [trending at github]: https://github.com/trending?l=autohotkey
