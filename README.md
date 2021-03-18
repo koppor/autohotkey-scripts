@@ -1,7 +1,6 @@
-autohotkey-scripts
-==================
+# autohotkey-scripts
 
-My personal authotkey scripts. Hope, they are useful for others, too
+My personal authotkey scripts.
 
 ## Setup
 
@@ -12,42 +11,40 @@ My personal authotkey scripts. Hope, they are useful for others, too
 
 Shortcut | Note | Application | File
 -------- | ---- | ----------- | ----
-<kbd>Win</kbd>-<kbd>b</kbd>  | "b" for **b**rowser | [Firefox] | [Firefox.ahk](Firefox.ahk)
-<kbd>Win</kbd>-<kbd>g</kbd>  | "g" for **g**oogle  | [Chrome]  | [Chrome.ahk](Chrome.ahk)
-<kbd>Win</kbd>-<kbd>+</kbd>  | "Plus" for Nodepad *plus* plus | [Nodepad++] | [Notepad.ahk](Notepad.ahk)
-<kbd>Win</kbd>-<kbd>e</kbd>  | Overrides default Win-e with focusing an active explorer window | Windows Explorer | [WindowsExplorer.ahk](WindowsExplorer.ahk)
-<kbd>Win</kbd>-<kbd>c</kbd>  | "c", like **c**onsole | [ConEmu]. Also install [Clink]. | [ConEmu.ahk](ConEmu.ahk)
-<kbd>Win</kbd>-<kbd>w</kbd>  | (Win-i opens the windows setting)  | [IntelliJ IDEA]  | [IntelliJ.ahk](IntelliJ.ahk)
-<kbd>Win</kbd>-<kbd>j</kbd>  | "j" for **J**abRef  | [JabRef]  | [JabRef.ahk](JabRef.ahk)
-<kbd>Win</kbd>-<kbd>s</kbd>  | "s" for **S**umatra PDF  | [Sumatra PDF]  | [SumatraPDF.ahk](SumatraPDF.ahk)
-<kbd>Win</kbd>-<kbd>o</kbd>  | "o" like **o**pera  | [Opera]     | [Opera.ahk](Opera.ahk)
-<kbd>Win</kbd>-<kbd>z</kbd>  | "z" like **z**otero  | [Zotero]     | [Zotero.ahk](Zotero.ahk)
-<kbd>Ctrl</kbd>-<kbd>Alt</kbd>-<kbd>h</kbd> | "h" for **h**idden. Toggles display of hidden files in Windows Explorer | Windows Explorer | [ToggleHiddenFiles.ahk](ToggleHiddenFiles.ahk)
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>D</kbd> | "d" like **d**ate. Types the current date and time | (all) | [SendTimeAndDate.ahk](SendTimeAndDate.ahk)
+<kbd>Win</kbd>+<kbd>B</kbd>  | "b" like **b**rowser | [Firefox] | [Firefox.ahk](Firefox.ahk)
+<kbd>Win</kbd>+<kbd>G</kbd>  | "g" like **g**oogle  | [Chrome]  | [Chrome.ahk](Chrome.ahk)
+<kbd>Win</kbd>+<kbd>+</kbd>  | "Plus" like Nodepad *plus* plus | [Nodepad++] | [Notepad.ahk](Notepad.ahk)
+<kbd>Win</kbd>+<kbd>E</kbd>  | Overrides default <kbd>Win</kbd>+<kbd>E</kbd> with focusing an active explorer window.<br>Especially useful for a tabbed Windows Explorer (provided by [QTTabBar]) | Windows Explorer | [WindowsExplorer.ahk](WindowsExplorer.ahk)
+<kbd>Win</kbd>+<kbd>C</kbd>  | "c", like **c**onsole | [ConEmu] | [ConEmu.ahk](ConEmu.ahk)
+<kbd>Win</kbd>+<kbd>W</kbd>  | "w" like **w**indow (<kbd>Win</kbd>+<kbd>I</kbd> opens the windows settings dialog)  | [IntelliJ IDEA]  | [IntelliJ.ahk](IntelliJ.ahk)
+<kbd>Win</kbd>+<kbd>J</kbd>  | "j" like **J**abRef  | [JabRef]  | [JabRef.ahk](JabRef.ahk)
+<kbd>Win</kbd>+<kbd>S</kbd>  | "s" like **S**umatra PDF  | [Sumatra PDF]  | [SumatraPDF.ahk](SumatraPDF.ahk)
+<kbd>Win</kbd>+<kbd>O</kbd>  | "o" like **o**pera  | [Opera]     | [Opera.ahk](Opera.ahk)
+<kbd>Win</kbd>+<kbd>Z</kbd>  | "z" like **z**otero  | [Zotero]     | [Zotero.ahk](Zotero.ahk)
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>H</kbd> | "h" for **h**idden. Toggles display of hidden files in Windows Explorer | Windows Explorer | [ToggleHiddenFiles.ahk](ToggleHiddenFiles.ahk)
 
-The `Win-e` script is useful if you have a tabbed explorer like enabled with [QTTabBar].
-
-You find more tips for windows at [flupp.de].
+## Resources
 
 For tool installation, see <https://github.com/koppor/koppors-chocolatey-scripts>.
 
-## Other AutoHotkey resources
+Other AutoHotkey resources:
 
-* https://github.com/baderas/autohotkey-scripts
-* https://github.com/ahkscript/awesome-AutoHotkey
-* [trending at github]
+- <https://github.com/baderas/autohotkey-scripts>
+- <https://github.com/ahkscript/awesome-AutoHotkey>
+- [Trending on GitHub](https://github.com/trending?l=autohotkey)
+
 
 [AutoHotkey]: http://www.autohotkey.com
 [Chrome]: https://www.google.com/chrome
-[Clink]: http://mridgers.github.io/clink/
 [ConEmu]: https://conemu.github.io/
 [Firefox]: http://www.mozilla.org/firefox
 [IntelliJ IDEA]: https://www.jetbrains.com/idea/
-[JabRef]: http://jabref.sourceforge.net/
+[JabRef]: https://www.jabref.org/
 [Nodepad++]: http://notepad-plus-plus.org/
 [Opera]: http://www.opera.com/
 [QTTabBar]: http://qttabbar.sourceforge.net/
-[SumatraPDF]: https://www.sumatrapdfreader.org/
+[Sumatra PDF]: https://www.sumatrapdfreader.org/
 [Zotero]: https://www.zotero.org/
 
-[flupp.de]: http://wiki.flupp.de/windows
-[trending at github]: https://github.com/trending?l=autohotkey
+<!-- markdownlint-disable-file MD033 -->
