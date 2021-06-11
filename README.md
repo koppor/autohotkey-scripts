@@ -11,7 +11,9 @@ My personal authotkey scripts.
 
 Shortcut | Note | Application | File
 -------- | ---- | ----------- | ----
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>D</kbd> | "d" like **d**ate. Types the current date and time | (all) | [SendTimeAndDate.ahk](SendTimeAndDate.ahk)
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>D</kbd> | "d" like **d**ate. Types the current date and time | (all) | [SendTDate.ahk](SendDate.ahk)
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd> | "t" like **t**time. Types the current date and time | (all) | [SendTimeAndDate.ahk](SendTimeAndDate.ahk)
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>H</kbd> | "h" for **h**idden. Toggles display of hidden files in Windows Explorer | Windows Explorer | [ToggleHiddenFiles.ahk](ToggleHiddenFiles.ahk)
 <kbd>Win</kbd>+<kbd>B</kbd>  | "b" like **b**rowser | [Firefox] | [Firefox.ahk](Firefox.ahk)
 <kbd>Win</kbd>+<kbd>G</kbd>  | "g" like **g**oogle  | [Chrome]  | [Chrome.ahk](Chrome.ahk)
 <kbd>Win</kbd>+<kbd>+</kbd>  | "Plus" like Nodepad *plus* plus | [Nodepad++] | [Notepad.ahk](Notepad.ahk)
@@ -22,7 +24,6 @@ Shortcut | Note | Application | File
 <kbd>Win</kbd>+<kbd>S</kbd>  | "s" like **S**umatra PDF  | [Sumatra PDF]  | [SumatraPDF.ahk](SumatraPDF.ahk)
 <kbd>Win</kbd>+<kbd>O</kbd>  | "o" like **o**pera  | [Opera]     | [Opera.ahk](Opera.ahk)
 <kbd>Win</kbd>+<kbd>Z</kbd>  | "z" like **z**otero  | [Zotero]     | [Zotero.ahk](Zotero.ahk)
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>H</kbd> | "h" for **h**idden. Toggles display of hidden files in Windows Explorer | Windows Explorer | [ToggleHiddenFiles.ahk](ToggleHiddenFiles.ahk)
 
 ## Resources
 
