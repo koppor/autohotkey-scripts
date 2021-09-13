@@ -11,8 +11,8 @@ My personal authotkey scripts.
 
 Shortcut | Note | Application | File
 -------- | ---- | ----------- | ----
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>D</kbd> | "d" like **d**ate. Types the current date and time | (all) | [SendTDate.ahk](SendDate.ahk)
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd> | "t" like **t**time. Types the current date and time | (all) | [SendTimeAndDate.ahk](SendTimeAndDate.ahk)
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd> | "d" like **d**ate. Types the current date. We opted for the thee modifier keys as <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>D</kbd> starts a comment in Confluence. | (all) | [SendDate.ahk](SendDate.ahk)
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> | "t" like **t**time. Types the current date and time | (all) | [SendTimeAndDate.ahk](SendTimeAndDate.ahk)
 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>H</kbd> | "h" for **h**idden. Toggles display of hidden files in Windows Explorer | Windows Explorer | [ToggleHiddenFiles.ahk](ToggleHiddenFiles.ahk)
 <kbd>Win</kbd>+<kbd>B</kbd>  | "b" like **b**rowser | [Firefox] | [Firefox.ahk](Firefox.ahk)
 <kbd>Win</kbd>+<kbd>G</kbd>  | "g" like **g**oogle  | [Chrome]  | [Chrome.ahk](Chrome.ahk)
