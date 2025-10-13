@@ -1,11 +1,10 @@
-; Source: http://davejamesmiller.com/blog/autohotkey-toggle-hidden-files-andor-file-extensions-in-windows-explorer
+#Requires AutoHotkey v2.0
 
-; Ctrl+Alt+H - Toggle hidden files
-^!h::
-RegRead, HiddenFiles_Status, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, Hidden
-If HiddenFiles_Status = 2
-    RegWrite, REG_DWORD, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, Hidden, 1
-Else
-    RegWrite, REG_DWORD, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, Hidden, 2
-Send, {F5}
-Return
+^!h:: {
+    hiddenStatus := RegRead("HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced", "Hidden")
+    if hiddenStatus = 2
+        RegWrite(1, "REG_DWORD", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced", "Hidden")
+    else
+        RegWrite(2, "REG_DWORD", "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced", "Hidden")
+    Send "{F5}"
+}
