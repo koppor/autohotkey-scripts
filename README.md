@@ -17,6 +17,7 @@ Shortcut | Note | Application | File
 <kbd>Win</kbd>+<kbd>B</kbd>  | "b" like **b**rowser | [Firefox] | [Firefox.ahk](Firefox.ahk)
 <kbd>Win</kbd>+<kbd>G</kbd>  | "g" like **g**oogle  | [Chrome]  | [Chrome.ahk](Chrome.ahk)
 <kbd>Win</kbd>+<kbd>+</kbd>  | "Plus" like Nodepad *plus* plus | [Nodepad++] | [Notepad.ahk](Notepad.ahk)
+<kbd>Win</kbd>+<kbd>E</kbd>  | Overrides default <kbd>Win</kbd>+<kbd>E</kbd> | [QDir](http://www.q-dir.com/) | [QDir.ahk](QDir.ahk)
 <kbd>Win</kbd>+<kbd>E</kbd>  | Overrides default <kbd>Win</kbd>+<kbd>E</kbd> with focusing an active explorer window.<br>Especially useful for a tabbed Windows Explorer (provided by [QTTabBar]) | Windows Explorer | [WindowsExplorer.ahk](WindowsExplorer.ahk)
 <kbd>Win</kbd>+<kbd>C</kbd>  | "c", like **c**onsole | [ConEmu] | [ConEmu.ahk](ConEmu.ahk)
 <kbd>Win</kbd>+<kbd>W</kbd>  | "w" like **w**indow (<kbd>Win</kbd>+<kbd>I</kbd> opens the windows settings dialog)  | [IntelliJ IDEA]  | [IntelliJ.ahk](IntelliJ.ahk)
