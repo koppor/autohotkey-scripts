@@ -3,6 +3,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) following [RFC 3339](https://datatracker.ietf.org/doc/html/rfc3339).
 
+## 2026-11-04
+
+### Added
+
+- <kbd>Win</kbd>+<kbd>N</kbd> for Notepad++
+
+### Removed
+
+- <kbd>Win</kbd>+<kbd>+</kbd> for Notepad++ - that shortcut is kept free for the Windows Magnifier
+
 ## 2026-05-04
 
 ### Changed

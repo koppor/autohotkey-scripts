@@ -23,8 +23,8 @@ ActivateOrRun(winSpec, exePath) {
 ; Win+J — JabRef
 #j:: ActivateOrRun("JabRef ahk_class ahk_class GlassWndClass-GlassWindowClass-2", "C:\Program Files\JabRef\JabRef.exe")
 
-; Win++ — Notepad++
-#+:: ActivateOrRun("ahk_class Notepad++", "C:\Program Files\Notepad++\Notepad++.exe")
+; Win+N — Notepad++ (overrides the Windows 11 notification center)
+#n:: ActivateOrRun("ahk_class Notepad++", "C:\Program Files\Notepad++\Notepad++.exe")
 
 ; Win+S — SumatraPDF
 #s:: ActivateOrRun("ahk_class SUMATRA_PDF_FRAME", "C:\Program Files (x86)\SumatraPDF\SumatraPDF.exe")
