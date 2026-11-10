@@ -3,6 +3,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) following [RFC 3339](https://datatracker.ietf.org/doc/html/rfc3339).
 
+## 2026-11-10
+
+### Added
+
+- <kbd>Win</kbd>+<kbd>C</kbd> for the Claude desktop app
+
+### Changed
+
+- Windows Terminal moved from <kbd>Win</kbd>+<kbd>C</kbd> to <kbd>Win</kbd>+<kbd>T</kbd>
+
 ## 2026-11-04
 
 ### Added

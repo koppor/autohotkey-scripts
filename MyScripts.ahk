@@ -32,8 +32,11 @@ ActivateOrRun(winSpec, exePath) {
 ; Win+E — Windows Explorer (focus existing window if present)
 #e:: ActivateOrRun("ahk_class CabinetWClass", "C:\Windows\explorer.exe")
 
-; Win+C — Windows Terminal
-#c:: ActivateOrRun("ahk_exe WindowsTerminal.exe", "wt")
+; Win+T — Windows Terminal (overrides cycling through the task bar)
+#t:: ActivateOrRun("ahk_exe WindowsTerminal.exe", "wt")
+
+; Win+C — Claude desktop app (overrides Copilot)
+#c:: ActivateOrRun("ahk_class Chrome_WidgetWin_1 ahk_exe claude.exe", "shell:AppsFolder\Claude_pzs8sxrjxfjjc!Claude")
 
 ; Win+O — OneNote
 #o:: ActivateOrRun("ahk_exe ONENOTE.EXE", "C:\Program Files\Microsoft Office\root\Office16\ONENOTE.EXE")
@@ -48,8 +51,8 @@ ActivateOrRun(winSpec, exePath) {
 ; Win+G — Chrome
 ; #g:: ActivateOrRun("ahk_class Chrome_WidgetWin_1", "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe")
 
-; Win+C — ConEmu (conflicts with Windows Terminal above)
-; #c:: ActivateOrRun("ahk_class VirtualConsoleClass", "C:\Program Files\ConEmu\ConEmu64.exe")
+; Win+T — ConEmu (conflicts with Windows Terminal above)
+; #t:: ActivateOrRun("ahk_class VirtualConsoleClass", "C:\Program Files\ConEmu\ConEmu64.exe")
 
 ; Win+O — Opera (conflicts with OneNote above)
 ; #o:: ActivateOrRun("ahk_class OpWindow", "C:\Program Files (x86)\Opera\Opera.exe")

@@ -20,7 +20,8 @@ Enabled by default:
 | <kbd>Win</kbd>+<kbd>B</kbd>                                  | "b" like **b**rowser                                                                                                                                          | [Firefox]         |
 | <kbd>Win</kbd>+<kbd>N</kbd>                                  | "n" like **N**otepad++. Overrides the Windows 11 notification center                                                                                          | [Notepad++]       |
 | <kbd>Win</kbd>+<kbd>E</kbd>                                  | Overrides default <kbd>Win</kbd>+<kbd>E</kbd> with focusing an active explorer window.<br>Especially useful for a tabbed Windows Explorer (provided by [QTTabBar]) | Windows Explorer |
-| <kbd>Win</kbd>+<kbd>C</kbd>                                  | "c" like **c**onsole (<kbd>Win</kbd>+<kbd>T</kbd> tabs through the task bar)                                                                                  | Windows Terminal  |
+| <kbd>Win</kbd>+<kbd>T</kbd>                                  | "t" like **t**erminal. Overrides cycling through the task bar                                                                                                 | Windows Terminal  |
+| <kbd>Win</kbd>+<kbd>C</kbd>                                  | "c" like **C**laude. Overrides Copilot                                                                                                                        | Claude desktop app |
 | <kbd>Win</kbd>+<kbd>W</kbd>                                  | "w" like **w**indow (<kbd>Win</kbd>+<kbd>I</kbd> opens the windows settings dialog)                                                                           | [IntelliJ IDEA]   |
 | <kbd>Win</kbd>+<kbd>J</kbd>                                  | "j" like **J**abRef                                                                                                                                           | [JabRef]          |
 | <kbd>Win</kbd>+<kbd>S</kbd>                                  | "s" like **S**umatra PDF                                                                                                                                      | [Sumatra PDF]     |
@@ -33,7 +34,7 @@ Available but disabled (uncomment the relevant line in [MyScripts.ahk](MyScripts
 | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> | "t" like **t**ime. Types the current date and time    | (all)       |
 | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>H</kbd>                  | "h" for **h**idden. Toggles display of hidden files   | Windows Explorer |
 | <kbd>Win</kbd>+<kbd>G</kbd>                                  | "g" like **g**oogle                                   | [Chrome]    |
-| <kbd>Win</kbd>+<kbd>C</kbd>                                  | Conflicts with Windows Terminal                       | [ConEmu]    |
+| <kbd>Win</kbd>+<kbd>T</kbd>                                  | Conflicts with Windows Terminal                       | [ConEmu]    |
 | <kbd>Win</kbd>+<kbd>O</kbd>                                  | Conflicts with OneNote                                | [Opera]     |
 | <kbd>Win</kbd>+<kbd>Z</kbd>                                  | "z" like **z**otero                                   | [Zotero]    |
 
