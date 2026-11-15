@@ -1,5 +1,6 @@
 #Requires AutoHotkey v2.0
 #SingleInstance Force
+#UseHook True
 
 ; Activate the matching window if it exists; otherwise launch exePath and wait.
 ActivateOrRun(winSpec, exePath) {
