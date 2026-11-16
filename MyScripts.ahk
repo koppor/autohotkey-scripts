@@ -2,13 +2,37 @@
 #SingleInstance Force
 #UseHook True
 
-; Activate the matching window if it exists; otherwise launch exePath and wait.
-ActivateOrRun(winSpec, exePath) {
-    if !WinExist(winSpec) {
-        Run exePath
-        WinWait winSpec
+; True if the window is cloaked (e.g. lives on another virtual desktop).
+IsCloaked(hwnd) {
+    cloaked := 0
+    DllCall("dwmapi\DwmGetWindowAttribute", "Ptr", hwnd, "UInt", 14, "UInt*", &cloaked, "UInt", 4)
+    return cloaked != 0
+}
+
+; Matching windows on the current virtual desktop, in z-order (topmost first).
+WindowsOnCurrentDesktop(winSpec) {
+    result := []
+    for hwnd in WinGetList(winSpec) {
+        if !IsCloaked(hwnd)
+            result.Push(hwnd)
     }
-    WinActivate winSpec
+    return result
+}
+
+; Activate the matching window on the current desktop; if one is already focused,
+; switch to the next instance (cycling). If none exists, launch exePath and wait.
+ActivateOrRun(winSpec, exePath) {
+    wins := WindowsOnCurrentDesktop(winSpec)
+    if wins.Length = 0 {
+        Run exePath
+        if WinWait(winSpec, , 10)
+            WinActivate winSpec
+        return
+    }
+    if wins.Length > 1 && WinActive("ahk_id " wins[1])
+        WinActivate "ahk_id " wins[wins.Length]  ; bottom of z-order -> next instance
+    else
+        WinActivate "ahk_id " wins[1]
 }
 
 ; ---------------------------------------------------------------------------
