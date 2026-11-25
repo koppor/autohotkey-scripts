@@ -50,9 +50,13 @@ Other AutoHotkey resources:
 
 ## Alternatives
 
-For launching/focussing an application, there is the feature [launch application](https://www.quickaccesspopup.com/how-do-i-add-an-application-or-script-to-my-menu/) of [Quick Access Popup](https://www.quickaccesspopup.com/).
+For launching an application, there is
 
-### Alternatives on Linux.
+- [QuickLaunch](https://github.com/chrizonix/QuickLaunch)
+- [PowerToys Run](https://learn.microsoft.com/en-en/windows/powertoys/run)
+- the feature [launch application](https://www.quickaccesspopup.com/how-do-i-add-an-application-or-script-to-my-menu/) of [Quick Access Popup](https://www.quickaccesspopup.com/).
+
+### Alternatives on Linux
 
 In general [jumpapp](https://github.com/mkropat/jumpapp) is offers the focusing (and launching) alternative than the above scripts.
 When using the new window manager [Hyprland](https://hyprland.org/), there [seem to be issues](https://www.reddit.com/r/hyprland/comments/12scv62/jumpapp_alternative/).
